@@ -1,0 +1,11 @@
+{
+  "name": "basic-json-server",
+  "version": "1.0.0",
+  "description": "basic json server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Heinner Zapata",
+  "license": "MIT"
+}
