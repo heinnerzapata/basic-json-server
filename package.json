@@ -4,8 +4,16 @@
   "description": "basic json server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "nodemon index.js"
   },
   "author": "Heinner Zapata",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4"
+  }
 }
